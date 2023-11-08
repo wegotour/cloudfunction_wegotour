@@ -4,7 +4,7 @@ go 1.21.3
 
 require (
 	github.com/GoogleCloudPlatform/functions-framework-go v1.8.0
-	github.com/wegotour/be_p3 v0.0.3
+	github.com/wegotour/be_p3 v0.0.4
 )
 
 require (
