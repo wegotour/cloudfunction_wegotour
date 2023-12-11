@@ -1,4 +1,4 @@
-module github.com/wegotour/cloudfunction_wegotour/post-datatransaksi
+module github.com/wegotour/cloudfunction_wegotour/CRUD/post-datatransaksi
 
 go 1.21.4
 
