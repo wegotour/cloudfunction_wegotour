@@ -24,6 +24,6 @@ func dataticket(w http.ResponseWriter, r *http.Request) {
 	}
 	// Set CORS headers for the main request.
 	w.Header().Set("Access-Control-Allow-Origin", "https://wegotour.my.id")
-	fmt.Fprintf(w, backenduser.InsertDataTransaksi("MONGOSTRING", "wegotour", r))
+	fmt.Fprintf(w, backenduser.InsertDataTicket("MONGOSTRING", "wegotour", r))
 
 }
